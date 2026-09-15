@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import {
-  ArrowRight, BadgeCheck, Building2, Check, ChevronDown, Clock3, Facebook,
-  HeartHandshake, Instagram, Leaf, Mail, MapPin, Menu, Phone, ShieldCheck,
+  ArrowRight, BadgeCheck, Building2, Camera, Check, ChevronDown, Clock3,
+  HeartHandshake, Leaf, Mail, MapPin, Menu, MessageCircle, Phone, ShieldCheck,
   Sparkles, Star, X
 } from 'lucide-react';
 import './styles.css';
@@ -146,7 +146,7 @@ function App() {
       </main>
 
       <footer id="contact">
-        <div className="footer-top"><div><Logo light/><p>Clean spaces. Happy people.<br/>Service you can count on.</p><div className="socials"><a href="#top" aria-label="Instagram"><Instagram/></a><a href="#top" aria-label="Facebook"><Facebook/></a></div></div>
+        <div className="footer-top"><div><Logo light/><p>Clean spaces. Happy people.<br/>Service you can count on.</p><div className="socials"><a href="#top" aria-label="Instagram"><Camera/></a><a href="#top" aria-label="Facebook"><MessageCircle/></a></div></div>
           <div><h4>Explore</h4><a href="#services">Services</a><a href="#about">About us</a><a href="#process">How it works</a><a href="#quote">Get a quote</a></div>
           <div><h4>Services</h4><a href="#services">Commercial cleaning</a><a href="#services">Deep cleaning</a><a href="#services">Day porter services</a><a href="#services">Specialty services</a></div>
           <div><h4>Get in touch</h4><a href="tel:+15308946463"><Phone/> (530) 894-6463</a><a href="mailto:hello@chicolimpio.com"><Mail/> hello@chicolimpio.com</a><p className="address"><MapPin/> Serving Chico and<br/>surrounding communities</p></div>
